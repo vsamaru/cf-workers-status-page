@@ -6,6 +6,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+       "g": "git add . && git commit -m \"commit\" && git push -u origin main",
     "dev": "flareact dev",
     "build": "yarn css && flareact build",
     "deploy": "yarn build && flareact publish",
